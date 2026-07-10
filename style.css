@@ -685,7 +685,7 @@ audio::-webkit-media-controls-current-time-display {
 
 .carrusel-track {
     position: relative;
-    height: 420px;
+    height: 420px; 
     margin-bottom: 24px;
 }
 
@@ -816,7 +816,7 @@ footer {
     width: 100%;
     height: auto;
     margin: 0;
-    background-color: var(--color-1);
+    background-color: var(--color-2);
     color: var(--color-0);
     font-family: var(--font-principal);
     padding: 40px 0;
@@ -881,9 +881,19 @@ footer img {
     text-align: center;
     color: var(--color-3);
     justify-content: center;
-    background-image: url(./img-editable/timing-mobile.png);
+    background-image: none;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+.timeline .timeline-img {
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img-editable/timing-mobile.png);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
 }
 }
