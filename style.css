@@ -39,7 +39,7 @@ body {
     color: var(--color-0);
     padding: 10px 30px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-family: var(--font-principal);
     border-radius: 50px;
 }
@@ -58,7 +58,7 @@ body {
     color: var(--color-1);
     padding: 10px 30px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-family: var(--font-secundaria);
     border-radius: 50px;
 }
@@ -555,7 +555,7 @@ audio::-webkit-media-controls-current-time-display {
     font-size: 1rem;
     margin: 0;
     font-family: var(--font-secundaria);
-    color: var(--color-1);
+    color: var(--color-4);
 }
 .forms .boton {
     font-size: 1.4rem;
@@ -575,7 +575,7 @@ audio::-webkit-media-controls-current-time-display {
 }
 .formulario .formtitle {
     font-family: var(--font-principal);
-    color: var(--color-4);
+    color: var(--color-2);
     font-size: 2.6rem;
     padding: 0;
     margin: 0;
@@ -746,7 +746,7 @@ audio::-webkit-media-controls-current-time-display {
     font-size: 1rem;
     margin: 0;
     height: auto;
-    color: var(--color-1);
+    color: var(--color-4);
     font-family: var(--font-secundaria);
 }
 
@@ -797,6 +797,7 @@ audio::-webkit-media-controls-current-time-display {
 
 .fotos-stack-section h3 {
     font-family: var(--font-principal);
+    color: var(--color-2);
     letter-spacing: 0.1rem;
     font-size: 2.6em;
     font-weight: lighter;
@@ -810,6 +811,7 @@ audio::-webkit-media-controls-current-time-display {
     padding: 5px 0 20px 0;
     font-size: 1rem;
     margin: 0;
+    color: var(--color-4);
     font-family: var(--font-secundaria);
 }
 
